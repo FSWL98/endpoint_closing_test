@@ -1,0 +1,20 @@
+.TodoList {
+    list-style: none;
+    width: 50%;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.Loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
